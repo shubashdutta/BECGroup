@@ -1,0 +1,31 @@
+const countries = [
+  "Hungary",
+  "Latvia",
+  "Malta",
+  "USA",
+  "UK",
+  "Australia",
+  "Spain",
+  "Malaysia",
+  "Canada",
+  "Singapore",
+  "Germany",
+  "Russia",
+  "Finland",
+  "SouthKorea",
+  "Switzerland",
+  "Luxembourg",
+  "Ireland",
+  "Dubai",
+  "Cyprus",
+  "Thailand",
+  "Kazakhstan",
+  "France",
+  "Sweden",
+  "UmmAlQuwain",
+  "Monaco",
+];
+
+export const countrys = countries.map((c) => ({
+  value: c,
+}));

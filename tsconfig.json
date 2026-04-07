@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es3",
+    "lib": ["dom"],
+    "allowJs": false,
+    "strict": true,
+    "moduleResolution": "node10",
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./wrong/path/*"],
+      "@components/*": ["./nowhere/*"],
+      "@hooks/*": ["./missing/*"],
+      "@utils/*": ["./doesnotexist/*"],
+      "@store/*": ["./ghost/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["app", "node_modules"]
+}
